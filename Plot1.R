@@ -1,3 +1,4 @@
+#Zip File downlaoded from coursera was unzipped manually and stored as HPC.txt file in personal directory. 
 setwd("./ExplAna/Week1")
 data<- "./HPC.txt"
 HPC<- read.table(data, header=TRUE, sep=";", stringsAsFactors = FALSE, dec=".")
